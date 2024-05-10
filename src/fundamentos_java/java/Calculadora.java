@@ -28,32 +28,32 @@ public class Calculadora {
     
     int result = 0;
     
-//    if (operator.equals("+")) {
-//        result = first + second;
-//    } else if (operator.equals("-")) {
-//        result = first - second;
-//    } else if (operator.equals("*")) {
-//        result = first * second;
-//    } else if (operator.equals("/")) {
-//            result = first / second;
-//        } 
-
-    switch (operator) {
-        case "+":
-            result = first + second;
-            break;
-        case "-":
-            result = first - second;
-            break;
-        case "*":
-            result = first * second;
-            break;
-        case "/":
+    if (operator.equals("+")) {
+        result = first + second;
+    } else if (operator.equals("-")) {
+        result = first - second;
+    } else if (operator.equals("*")) {
+        result = first * second;
+    } else if (operator.equals("/")) {
             result = first / second;
-            break;
-        default:
-            System.out.println("Operador no válido");
-    }
+        } 
+
+//    switch (operator) {
+//        case "+":
+//            result = first + second;
+//            break;
+//        case "-":
+//            result = first - second;
+//            break;
+//        case "*":
+//            result = first * second;
+//            break;
+//        case "/":
+//            result = first / second;
+//            break;
+//        default:
+//            System.out.println("Operador no válido");
+//    }
 
     System.out.println("El resultado es: " + result);
 
